@@ -13,7 +13,7 @@ $ docker-compose up -d
 $ docker attach dotnet-dev
 ```
 
-Check .NET Core version:
+You're now inside the development container. Check .NET Core version:
 ```
 $ dotnet --version
 ```
