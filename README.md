@@ -5,6 +5,22 @@ Docker container with tools for .NET Core development.
 
 
 # sample usage
+
+Run:
+
 ```
 $ docker run -it maxhorstmann/dotnet-dev
 ```
+
+Check .NET Core version:
+```
+$ dotnet --version
+```
+
+Create new ASP.Net Core site:
+```
+$ dotnet new mvc
+```
+
+
+
