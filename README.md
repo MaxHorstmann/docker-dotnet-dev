@@ -10,7 +10,7 @@ Spin up dev environment:
 
 ```
 $ docker-compose up -d
-$ docker attach dotnet-dev
+$ docker exec -it dotnet-dev /bin/bash
 ```
 
 You're now inside the development container. Check .NET Core version:
