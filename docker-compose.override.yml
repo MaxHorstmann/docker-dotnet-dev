@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: maxhorstmann/dotnet-dev
+    stdin_open: true
+    tty: true
+    volumes: 
+      - .:/opt/code
+    working_dir: /opt/code

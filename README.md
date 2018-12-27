@@ -6,11 +6,13 @@ Docker container with tools for .NET Core development.
 
 # sample usage
 
-Run:
+Spin up dev environment:
 
 ```
-$ docker run -it maxhorstmann/dotnet-dev
+$ docker-compose up -d
 ```
+
+Note that `docker-compose.yml` also defines a SQL Server service. Update this as needed.
 
 Check .NET Core version:
 ```
