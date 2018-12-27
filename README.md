@@ -23,5 +23,20 @@ Create new ASP.Net Core site:
 $ dotnet new mvc
 ```
 
+Open `Startup.cs` in vim:
+```
+$ vim Startup.cs
+```
 
+Use ASP.NET code generator:
+```
+$ dotnet aspnet-codegenerator
+```
+
+Exit development container:
+```
+$ exit
+```
+
+Note new files have been added to host file system.
 
