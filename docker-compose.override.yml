@@ -2,6 +2,7 @@ version: '3'
 services:
   web:
     image: maxhorstmann/dotnet-dev
+    container_name: dotnet-dev
     stdin_open: true
     tty: true
     volumes: 

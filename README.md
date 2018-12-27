@@ -1,7 +1,7 @@
 # docker-dotnet-dev
-Docker container with tools for .NET Core development.
+Docker container with tools for .NET Core development ([dockerhub repo](https://cloud.docker.com/u/maxhorstmann/repository/docker/maxhorstmann/dotnet-dev))
 
-[dockerhub repo](https://cloud.docker.com/u/maxhorstmann/repository/docker/maxhorstmann/dotnet-dev)
+Also, sample `docker-compose.yml` to spin up a local dev environment which also contains an instance of SQL Server (on Linux).
 
 
 # sample usage
@@ -10,9 +10,8 @@ Spin up dev environment:
 
 ```
 $ docker-compose up -d
+$ docker attach dotnet-dev
 ```
-
-Note that `docker-compose.yml` also defines a SQL Server service. Update this as needed.
 
 Check .NET Core version:
 ```
